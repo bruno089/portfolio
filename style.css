@@ -1,10 +1,11 @@
 /* #region Custom Prop */
 :root {
-  --first-color: #84cece;
-  --first-alpha-color: rgba(217, 0, 98, 0.75);
-  --second-color: #14192d;
-  --second-alpha-color: rgba(20, 25, 45, 0.75);
-  --third-color: #501464;
+  
+  --first-color: rgb(102, 131, 151);
+  --first-alpha-color: rgba(102, 131, 15, 0.75);
+  --second-color: rgb(25, 31, 58);
+  --second-alpha-color: rgba(25, 31, 58, 0.75);
+  --third-color: rgb(11, 13, 80);
   --third-alpha-color: rgba(80, 20, 100, 0.75);
   /* Escale */
   --white-color: #fff;
@@ -13,7 +14,7 @@
   --gray-dark-color: #666;
   --black-color: #000;
   /* Links */
-  --link-color: #84cece;
+  --link-color: #84b7ce;
   --title-color: #333;
   --text-color: #222;
   /* Shadows */
