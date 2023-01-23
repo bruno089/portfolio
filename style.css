@@ -1,6 +1,6 @@
 /* #region Custom Prop */
 :root {
-  --first-color: #d90062;
+  --first-color: #84cece;
   --first-alpha-color: rgba(217, 0, 98, 0.75);
   --second-color: #14192d;
   --second-alpha-color: rgba(20, 25, 45, 0.75);
@@ -13,7 +13,7 @@
   --gray-dark-color: #666;
   --black-color: #000;
   /* Links */
-  --link-color: #509ee3;
+  --link-color: #84cece;
   --title-color: #333;
   --text-color: #222;
   /* Shadows */
@@ -154,7 +154,7 @@ background-color: var(--first-color);
   z-index: 999;
   width: 100%;
   height: var(--header-height);
-  background-color: var(--second-alpha-color); 
+  background-color: var(--second-color); 
   padding: 1rem;
 }
 
@@ -170,4 +170,36 @@ background-color: var(--first-color);
   text-decoration: none;
 }
 
+@media screen and (min-width:768px){
+
+} 
+@media screen and (min-width:1024px){
+  .header {
+    position: sticky;
+    margin-top: 0;
+    padding: .5rem;    
+    height: calc(var(--header-height) - .5 rem);
+  }
+}
+@media screen and (min-width:1024px){
+  .menu-btn{
+    display: none;
+  }
+  .menu{
+    position: static;
+    width: auto;
+    opacity: 1;
+    pointer-events: auto;
+    flex-direction: row;
+  }
+  .menu a {
+    padding: 0 1rem;    
+  }
+  .menu a:last-child {
+    padding-right: 0;    
+  }
+  .menu a:hover{
+    background-color: transparent;
+  }
+}
 /* #endregion */
