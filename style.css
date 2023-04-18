@@ -107,6 +107,7 @@ img {
   text-align: center;
   background-color: var(--carousel-bg-color);
   overflow-x: hidden;
+  width: 100vw;  
 }
 .carousel .slides {  
   width: 400%;   /* 100% por cada slide al width */
