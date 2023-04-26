@@ -1,12 +1,12 @@
 /* #region Custom Prop */
 :root {
   
-  --first-color:rgb(9, 144, 164);
+  --first-color:rgb(9, 110, 164);
   --first-alpha-color:rgb(9, 144, 164,0.75);
   --second-color: rgb(25, 31, 58);
   --second-alpha-color: rgba(25, 31, 58, 0.75);
-  --third-color:rgb(232, 213, 196);
-  --third-alpha-color: rgb(232, 213, 196,0.75);
+  --third-color:rgb(170 213 206);
+  --third-alpha-color: rgb(170 213 206,0.75);
   /* Escale */
   --white-color: #fff;
   --gray-light-color: #f3f3f3;
