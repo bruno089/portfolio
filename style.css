@@ -544,7 +544,7 @@ progress::-moz-progress-bar {
 .portfolio-details{
   display: grid;
   grid-template-columns: 40% 60%;
-  grid-auto-rows: 1.5rem;
+  grid-auto-rows: 2rem;
 }
 .portfolio-details{
   color: var(--first-color);
