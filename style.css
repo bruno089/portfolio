@@ -462,7 +462,7 @@ progress::-moz-progress-bar {
   height: 2rem;
 }
 .footer{
-  background-color: var(--third-color);
+  background-color: var(--second-color);
   text-align: center;
 }
 .header{
