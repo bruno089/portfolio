@@ -389,7 +389,7 @@ progress::-moz-progress-bar {
   max-width: var(--max-width);
 }
 .gray-scale{
-  filter: grayscale(1);
+  filter: grayscale(1);  
 }
 
 .none{
@@ -443,6 +443,12 @@ progress::-moz-progress-bar {
 /* #endregion */
 
 /* #region Site Custom Styles  */
+
+ .about img  {
+  display: block;
+  margin: 0 auto;
+} 
+
 .about > article {
   margin-bottom: 2rem;
 }
@@ -580,11 +586,12 @@ progress::-moz-progress-bar {
 
 @media screen and (min-width:768px){
 
-  .contact-cards{
+.contact-cards{
     display: grid;
     grid-template-columns: repeat(2,48%);
     justify-content: space-between;
-  }
+}
+
 .portfolio > .container {
   display: grid;
   grid-template-columns: repeat(2,50%);
