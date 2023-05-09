@@ -487,6 +487,9 @@ progress::-moz-progress-bar {
   justify-content: space-between;
   align-items: center;
 }
+.languages a {    
+  text-decoration: none;
+} 
 .logo a {
   color: var(--first-color);
   font-weight: bold;
